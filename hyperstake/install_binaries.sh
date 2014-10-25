@@ -75,8 +75,8 @@ YELLOW='\e[0;33m'
 NC='\e[0m'      #No color
 
 echo
-echo -e "Run daemon with ${GREEN}./hyperstaked${NC}"
-echo "Bootstrapping will take some time (few hours) - server will not respond t$
+echo -e "Run daemon with ${GREEN}./hyperstaked${NC} or clicking on ${GREEN}HyperStake icon on Desktop${NC}"
+echo "Bootstrapping will take some time (few hours) - server will not respond to commands while bootstrapping"
 echo "You can monitor progress of importing blocks with"
 echo
 echo -e "${GREEN}watch tail ~/.HyperStake/debug.log${NC}"
